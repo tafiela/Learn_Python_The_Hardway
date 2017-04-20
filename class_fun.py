@@ -1,8 +1,9 @@
 #Class is like creating an object
 #for example, playing world of warcraft, you have a Human class
+#everytime you select a human, you are asked two inputs as a mandatory field (name and gender)
 
 class Human():
-	#Every class you have to select a name and gender for it
+	#in this example, every class you have to select a name and gender for it
 	def __init__(self, name, gender): 
 	# since every human (object) HAS a <name> and <gender>, object it self is <self>
 		self.name = name
@@ -16,6 +17,7 @@ class Human():
 		print text
 
 	def perform_math(self, math_function, *args): #again, self is the object, in the below case its Mo
+		#we used *args because it allows us to input as many arguments as we want
 		print "%s performed a math operation and the result was : %f" %(self.name, math_function(*args))
 
 #below the object is Mo
@@ -23,6 +25,7 @@ Mo = Human("Mohammad", "Male") #offcourse, order matters, Mohammad will be assig
 
 
 def addition(a,b,c,d,e,f):
+	#as you can see there is 6 arguments here and when we called it in the method (perform_math) we only used (*args)
 	return a + b + c + d + e + f 
 
 
