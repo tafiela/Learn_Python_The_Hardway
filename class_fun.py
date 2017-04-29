@@ -12,6 +12,7 @@ class Human():
 	def speak_name(self): 
 	#this is a method (not function) as it is part of a class and can only be called from the object
 		print "My name is %s" %self.name
+		
 
 	def speak(self, text): #this is another method since its in a class
 		print text

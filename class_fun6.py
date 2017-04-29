@@ -14,7 +14,7 @@ print c.tangerine
 #Two ways to get things from MyStuff Class
 
 #module style
-c.apples()
+c.apple()
 print c.tangerine
 
 #class style

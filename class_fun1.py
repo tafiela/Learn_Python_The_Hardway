@@ -12,4 +12,4 @@ def main():
 	c.method2("This is some text")
 
 if __name__ == "__main__": #if the __name__ == "__main__" : meaning if the code is local (not imported)
-	main()
+	main() #run main()

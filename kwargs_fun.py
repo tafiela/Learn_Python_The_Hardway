@@ -21,3 +21,9 @@ test1(x=10, y=20)
 
 
 test2(x=10, y=20) #with the **kwargs you need to put the varibales with their definition 
+''' The output would be :
+
+('y', 20)
+('x', 10)
+
+'''
