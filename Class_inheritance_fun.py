@@ -26,7 +26,7 @@ class Student(Person): #since this is an inheriting class (subClass), we need to
     def __str__ (self):  #if this is not defined for this subclass and you tried to print this instance it will inherit the BaseClass __init__
         return self.FirstName + " " + self.LastName 
  
- # ^^^^^^^^^^^^^^^^^^^^^^^^^ This is the childClass or the SubClass ^^^^^^^^^^^^^^^^^^^^       
+# ^^^^^^^^^^^^^^^^^^^^^^^^^ This is the childClass or the SubClass ^^^^^^^^^^^^^^^^^^^^       
 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 '''
